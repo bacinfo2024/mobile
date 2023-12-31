@@ -1,0 +1,1403 @@
+<!doctype html>
+<html>
+    <head>
+        <title>4SI 2K24</title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="pytho.png" sizes="128x128" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='https://fonts.googleapis.com/css?family=Dekko'rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/bootstrap.min.css"></head>
+    </head>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+<style>
+    @import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+    *{
+            margin :0;
+            padding:0;
+            }
+            header{
+                height:60px;
+                background: #262626 ;
+                padding: 0 50px;
+                text-align: center;
+                animation: header 4s ;
+            }
+            body{
+                
+            }
+            .title{
+                width:80%;
+                margin-left: auto;
+                margin-right: auto;
+                color:#fff;
+                font-weight:bold ;
+                text-transform: uppercase;
+                line-height: 60px;
+                font-family:Nova Flat ;
+                font-size: 15px;
+                text-shadow:0 0 20px #FFD700;
+                text-align: center;
+                animation: dd;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+            }
+           
+            
+            .banner{
+            height:100%;
+            }
+
+            .hrbanner{
+                width: 100%;
+                background-color: #262626;
+                margin-top: -5px;
+                animation: hr;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                height: 10px;
+                border: 0;
+            }
+            @keyframes hr{
+  0%   {top: 0px; left: 0px; background-color: #262626;}
+  12.5%  {top: 0px; left: 10px; background-color: #262626;}
+  25%  {top: 10px; left: 10px; background-color: #a78e00;}
+  37.5%  {top: 10px; left: 0px; background-color: #262626;}
+  50% {top: 0px; left: 0px; background-color: #262626;}
+  62.5%  {top: 0px; left: 10px;  background-color: #262626;}
+  75%  {top: 10px; left: 10px; background-color: #a78e00;}
+  87.5%  {top: 10px; left: 0px; background-color: #262626;}
+  100% {top: 0px; left: 0px; background-color: #262626;}
+}
+
+            .banner img{
+                width: 100%;
+                height: 80vh;
+            }
+            
+            .about p{
+                font-size: 18px;
+                line-height: 1.7;
+                font-family: Allerta Stencil;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                margin-bottom: 25px;
+            }
+            .asami{
+                font-size: 18px;
+                line-height: 1.7;
+                font-family:Nova Flat ;
+                margin-bottom: auto;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                color: white;
+            }
+            .desc{
+                font-family: dekko;
+                color: #919090;
+                margin-bottom: 20px;
+            }
+            .desci{
+                font-family: dekko;
+                margin-bottom: 20px;
+                background: -webkit-linear-gradient(#ff9100 , #ff00c8 );
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .instacolor{
+                
+            }
+            footer{
+                background: #000000;
+                color: #fff;
+                padding: 15px 50px;
+                
+            }
+            
+            
+
+            .container{
+                
+            }
+            .quote{
+                font-family:  Nova Flat;
+                
+                
+            }
+            .quote img{
+                width: 10px;
+                height: 3px;
+            }
+            .pquote{
+                border-radius: 0;      
+                font-family:'Times New Roman', Times, serif ;
+                border-width: 100%;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100px;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                color: white;
+}
+.pquote2{
+                border-radius: 0;      
+                font-family:Nova Flat ;
+                border-width: 100%;
+                font-size: large;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100px;
+}.pquote2ar{
+                border-radius: 0;      
+                font-family: Lateef;
+                border-width: 100%;
+                font-size: 26px;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100px;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                color: white;
+}
+            
+            .container span{
+                color: white;
+                text-transform: uppercase; 
+                display: block;
+                background: #262626;
+                text-shadow:0 0 20px #FFD700;
+
+                text-align: center;
+            }
+            .text1{
+
+                font-size: 60px;
+                letter-spacing: 8px;
+                position: relative;
+                text-align: center;
+                background-color: gray;
+                animation: ddd 3s;
+                animation: text 3s 1;
+            }
+            .text1:hover{
+                text-shadow:0 0 20px #1900ff;
+            }
+            .text2:hover{
+                text-shadow:0 0 20px #1900ff;
+            }
+            .text2{
+                font-size: 30px;
+                
+
+            }
+            @keyframes text{
+                0%{
+               
+                margin-bottom: -40px;
+            }
+                30%{
+                letter-spacing:25px;
+                margin-bottom:-40px;
+        }  
+                85%{
+                    letter-spacing: 8px;
+                    margin-bottom: -40px;
+                }  
+            } 
+
+            
+            .container img{
+                width: 40%;
+                height: 30%;
+                margin-left: auto;
+                margin-right: auto;
+                
+
+            }
+            .tsawer img {
+                width: 85px;
+                height: 85px;
+                border-radius: 20px;
+                }
+            .container img:hover {
+                box-shadow:0 0 20px #262626;
+            }
+            .contact span{
+                color: white;
+                text-transform: uppercase; 
+                display: block;
+                background: #262626;
+                text-shadow:0 0 20px #FFD700;
+                text-align: center;
+            }
+            .ourpics{
+                background-color: #3c3c3c21;
+            }
+            .ourpics span{
+                color: white;
+                text-transform: uppercase; 
+                display: block;
+                background: #262626;
+                text-shadow:0 0 20px #FFD700;
+                text-align: center;
+            }
+            .text1{
+                font-size: 40px;
+                letter-spacing: 8px;
+                position: relative;
+                text-align: center;
+                background-color: gray;
+                animation: text 3s 1;
+            }
+            .text2{
+                font-size: 30px;
+                
+
+            }
+            @keyframes h1{
+                0%{
+               
+                margin-bottom: -4000px;
+            }
+                30%{
+                letter-spacing:2px;
+                margin-bottom:-3000px;
+        }  
+                60%{
+                    letter-spacing: 1px;
+                    margin-bottom: -2500px;
+                }  
+            } 
+            @keyframes d{
+                0%{
+               
+                margin-bottom: -40px;
+            }
+                30%{
+                letter-spacing:25px;
+                margin-bottom:-40px;
+        }
+                85%{
+                    letter-spacing: 8px;
+                    margin-bottom: -40px;
+                }  
+            } 
+            .contact {background-color: #3c3c3c21;
+            } 
+            
+@keyframes d {
+  0%   {top: 0px; left: 0px; background-color: rgba(172, 172, 250, 0.568);}
+  12.5%  {top: 0px; left: 10px; background-color: rgba(172, 172, 250, 0.74);}
+  25%  {top: 10px; left: 10px; background-color: #d2f9f688;}
+  37.5%  {top: 10px; left: 0px; background-color: rgba(182, 177, 253, 0.562);}
+  50% {top: 0px; left: 0px; background-color: #c5c5f394;}
+  62.5%  {top: 0px; left: 10px; background-color: rgba(172, 172, 250, 0.527);}
+  75%  {top: 10px; left: 10px; background-color: #d2f9f673;}
+  87.5%  {top: 10px; left: 0px; background-color: rgba(182, 177, 253, 0.473);}
+  100% {top: 0px; left: 0px; background-color: #c5c5f394;}
+}
+@keyframes dd {
+  0%   {top: 0px; left: 0px;text-shadow:0 0 20px #ffd900b9;}
+  25% {top: 0px; left: 0px; text-shadow:0 0 20px #ffd900d5;}
+  50% {top: 0px; left: 0px; text-shadow:0 0 20px #ffd900;}
+  75% {top: 0px; left: 0px; text-shadow:0 0 20px #ffd900d3;}
+  100%   {top: 0px; left: 0px;text-shadow:0 0 20px #ffd900a9;}
+}
+@keyframes quote {
+  0%   {top: 0px; left: 0px;}
+ 30% {top: 0px; left: 0px;text-shadow: 0 0 3px black, 0 0 5px  #ffffffd5;}
+  70% {top: 0px; left: 0px; text-shadow: 0 0 3px black, 0 0 5px  #ffffffd5;}
+  100%   {top: 0px; left: 0px;}
+}
+.pal{
+    width: 1px;
+}
+            .contact marquee {
+                font-size: 30px;
+                background-color: #36363683;
+                color: white;
+                font-family: courier ;
+                width: 90%;
+                height: 200px;
+                font-weight: 900;
+                text-shadow:0 0 20px rgb(0, 255, 0);
+                color: green;
+               
+                
+            } 
+            .contact marquee img{
+                transition: 1s;
+            }
+            .contact marquee img:hover{
+                width: 250px;
+            }
+            
+            .quote img{
+                width: 20%;
+                height: 20%;
+            }
+            .pquote{
+                text-shadow:0 0 20px #FFD700;
+                margin-left: auto;
+                font-family: Allerta Stencil;
+                margin-right: auto;
+                align-items: center;
+                text-transform: uppercase;
+                line-height: 60px;
+                font-size: 20px;
+                font-family: sans-serif;
+                text-align: center;
+                animation: quote;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+            }
+            .hrquote{
+                width: 13%;
+                height:5px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #262626;
+                margin-top: 3%;
+                border: 0;
+                margin-bottom: 10px;
+            }
+            .liste2 {
+                background-color: #3c3c3c21;
+            }
+            .memories{
+                animation: mem;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+                width: 70%;
+                height: 200%;
+                background-image: url("adem.jpg") no-repeat center center fixed;
+            background-size: cover;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                min-height: 200px;
+                box-shadow: 0 0 10px #000000;
+            }
+            .pmemories{
+                
+            }
+            .flags{
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            .flags img{
+                width: 50px;
+                height: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            tr{
+                 width: 75px;
+                 height: 20%;
+            }
+            .arte{
+                background-color: #3c3c3c21;
+            }
+            .art img {
+                width: 100%;
+                height: 10%;
+            }
+            .art th{
+                width: 10%;
+                height: 50%;
+            }
+            .art table{
+                width: auto;
+            }
+            @keyframes mem {
+  0%   {top: 0px; left: 0px; background-image: url("adem.jpg");}
+  5% {top: 0px; left: 0px;  background-image: url("ahmed.jpg");}
+  11% {top: 0px; left: 0px;  background-image: url("achref.jpg");}
+  16% {top: 0px; left: 0px;  background-image: url("akrem.jpg");}
+ 22%   {top: 0px; left: 0px; background-image: url("ameni.jpg");}
+  27% {top: 0px; left: 0px;  background-image: url("icon.jpg");}
+  32% {top: 0px; left: 0px;  background-image: url("jessem.jpg");}
+  38% {top: 0px; left: 0px;  background-image: url("khalil.jpg");}
+  44%   {top: 0px; left: 0px; background-image: url("ramez.jpg");}
+  50% {top: 0px; left: 0px;  background-image: url("rasslen.jpg");}
+  56% {top: 0px; left: 0px;  background-image: url("sejda.jpg");}
+  61% {top: 0px; left: 0px;  background-image: url("sywar.jpg");}
+  67%   {top: 0px; left: 0px; background-image: url("souhail.jpg");}
+  72% {top: 0px; left: 0px;  background-image: url("mohamed.jpg");}
+  78% {top: 0px; left: 0px;  background-image: url("omar.jpg");}
+  84% {top: 0px; left: 0px;  background-image: url("rhouma.jpg");}
+  90%   {top: 0px; left: 0px; background-image: url("benothmen.jpg");}
+  95% {top: 0px; left: 0px;  background-image: url("azizlamari.jpg");}
+  100%   {top: 0px; left: 0px; background-image: url("adem.jpg");}
+}
+            .art1 img{
+                height: 40vh;
+                width: 70%;
+                margin-bottom: -7px;
+                margin-top: 50px;
+                box-shadow: 0 0 10px #000000;
+            }
+            .art2 img{
+                height: 40vh;
+                margin-bottom: -7px;
+               
+            }
+            .mem1 img{
+                height:40vh;
+                margin-bottom: -7px;
+                box-shadow: 0 0 10px #000000;
+            }
+            .mem2 img{
+                height: 38vh;
+                width: 35hv;
+                margin-bottom: -15px;
+                box-shadow: 0 0 10px #000000;
+            }
+            video{
+                width: 100%;
+            }
+            .accentgrave{
+                font-size: 400%;
+                color: white;
+                animation: acg;
+                top: 1;
+                left: 1;
+                position: absolute;
+                margin-left: 20%;
+                font-weight: normal;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+            }
+            .accentaigu{
+                font-size: 405%;
+                color: #FFD700;
+                position: absolute;
+                 top: 1;
+                 right: 0;
+                 text-align:right;
+                 margin-right: 20%;
+                 font-weight: normal;
+                 animation: aca;
+                 animation-duration: 20s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes aca{
+                0%   {color: #FFD700;}
+                25% {color:white;}
+                50% {color: #FFD700;}
+                75% {color:white;}
+                100% {color: #FFD700;}
+            }
+            @keyframes acg{
+                0%   {color: white;}
+                25% {color: #FFD700;}
+                50% {color: white;}
+                75% {color: #FFD700;}
+                100% {color: white;}
+            }
+            .amoud{
+                box-shadow: 0 0 10px black;
+                border-radius: 50%;
+                width: 20%;
+            }
+            hr{}
+            .amoud img{
+                width: 100%;
+                height: 100%;
+                margin-bottom: -5%;
+            }
+            #body{
+                border-radius: 0;      
+                font-family: Allerta Stencil;
+                border-width: 100%;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100px; 
+            }
+            h2{
+                font-family:"Allerta Stencil";
+                width: 80%;
+            } 
+            .amoud img{
+                transition: 1s;
+            }
+            .amoud img:hover{
+                transform: scale(1.1);
+            }
+            .lista1{
+                text-align: center;
+                width: 100%;
+            }
+            .lista1 th{
+                width: 33%;
+            }
+            .lista2{
+                text-align: center;
+                width: 70%;
+            }
+            .lista2 th{
+                width: 50%;
+            }
+            .lista1 .tsawer{
+                transition: 1s;
+            }
+            .lista2 .tsawer{
+                transition: 1s;
+            }
+            .lista1 .tsawer:hover{
+                transform: scale(1.1);
+            }
+            .lista2 .tsawer:hover{
+                transform: scale(1.1);
+            }
+            .gold{
+                color: #FFD700;
+            }
+            .underall{
+              background: url(19.gif) no-repeat center center fixed;
+            background-size: cover;
+            }
+            .tadhlil{
+                background-color: #1a1a1ab2;
+            }
+            .tadhlil_khfif{
+                background-color: #1a1a1a4d;
+            }
+            .obt{
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #ffffff;
+                width: 80%;
+                padding: 3%;
+                box-shadow: 0 0 10px#000000;
+            }
+            .obt button{
+                width: 10vw;
+                height: 10vw;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-top: 2vw;
+            }
+            .obt button img{
+                height: 100%;
+                width: 100%;
+            }
+            .div{
+                background-color: #1a1a1ab2;
+                width: 100%;
+                height: 100%;
+                color: white;
+            }
+            .div img{
+                width: 100%;
+                height: 40vw;
+            }
+            .banner {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+            }
+
+            .banner img {
+                display: block;
+                width: 100%;
+                height: 90vw;
+            }
+
+            .overlay-text {
+                position: absolute;
+                top: 50%; 
+                left: 50%; 
+                transform: translate(-50%, -50%); 
+                font-family: nova flat;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                background-color: #0000002d;
+                color: #fff; 
+                padding: 10px 20px; 
+                font-size: 25px; 
+                text-align: center;
+                width: 90%;
+                animation: fam;
+                animation-duration: 9s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes fm {
+                0%   {color: rgba(243, 197, 197, 0.58);}
+                12.5%  { color: rgb(250, 172, 172);}
+                25%  {color: #f9d2d2;}
+                37.5%  {color: rgb(253, 177, 177);}
+                50% {color: #f3c5c594;}
+                62.5%  {color: rgb(250, 172, 172);}
+                75%  {color: #f9d2d2;}
+                87.5%  {color: rgb(253, 177, 177);}
+                100% {color: #f3c5c594;}
+              }
+              #overlay{
+                height: 100vh;
+                background: url(19.gif) no-repeat center center fixed;
+                background-size: cover;
+                top:0;
+                bottom: 0;
+              }
+              #but{
+                width: 110px;
+                height: 40px;
+                background-color: #2626268f;
+                color: white;
+                font-size: 18px;
+                border: 2px solid black;
+                animation: but;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+              }
+              @keyframes but{
+  0%   {top: 0px; left: 0px; border: 3px solid #262626;}
+  12.5%  {top: 0px; left: 10px; border: 3px solid #262626;}
+  25%  {top: 10px; left: 10px; border: 3px solid #a78e00;}
+  37.5%  {top: 10px; left: 0px; border: 3px solid #262626;}
+  50% {top: 0px; left: 0px; border: 3px solid #262626;}
+  62.5%  {top: 0px; left: 10px;  border: 3px solid #262626;}
+  75%  {top: 10px; left: 10px; border: 3px solid #a78e00;}
+  87.5%  {top: 10px; left: 0px; border: 3px solid #262626;}
+  100% {top: 0px; left: 0px; border: 3px solid #262626;}
+}
+              .b:hover{
+                transform: scale(0.9);
+              }
+              #but:hover{
+                transform: scale(0.9);
+              }
+              .h22{
+                color: white;
+                font-size: 27px;
+                text-shadow: 0 0 3px black, 0 0 5px  black;
+              }
+              #loa{
+                 mix-blend-mode: color-burn;
+              }
+              footer p {
+                text-align: center;
+              }
+              .mybequest{
+                text-align: left;
+                margin-left :-25px;
+                width: 300px;
+                
+              }
+              .mybeqimg{
+                display: block;
+                margin-left: -20px;
+              }
+              footer table{
+                width: 110%;
+              }
+              footer table th{
+                width: 100%;
+              }
+              .le{
+                width: 80%;
+              }
+              .le hr{
+                margin-left :-25px;
+                width: 240px;
+              }
+              .credits{
+                color: white;
+                font-size: 20px;
+                background-color: #262626;
+                
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                background-color: #0000002d;
+              }
+              .name{ font-family: Times New Roman ;
+                font-size: 15px;
+                animation: ddd;
+                animation-duration: 9s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes ddd {
+                0%   {top: 0px; left: 0px; color: #c5c5f394;}
+                12.5%  {top: 0px; left: 10px; color: rgb(172, 172, 250);}
+                25%  {top: 10px; left: 10px; color: #d2f9f6;}
+                37.5%  {top: 10px; left: 0px; color: rgb(182, 177, 253);}
+                50% {top: 0px; left: 0px; color: #c5c5f394;}
+                62.5%  {top: 0px; left: 10px; color: rgb(172, 172, 250);}
+                75%  {top: 10px; left: 10px; color: #d2f9f6;}
+                87.5%  {top: 10px; left: 0px; color: rgb(182, 177, 253);}
+                100% {top: 0px; left: 0px; color: #c5c5f394;}
+            }
+            #alert{
+                position: fixed;
+                background-color: #262626f1;
+                z-index: 1000;
+                color: white;
+                margin: 0 auto;
+                text-align: center;
+                width: 300px;
+                height: 250px;
+                margin-left:15%;
+                margin-right:auto;
+                margin-top:20px;
+            }
+            #butt{
+                width: 110px;
+                height: 40px;
+                background-color: #000000a2;
+                color: white;
+                font-size: 18px;
+                border: 2px solid black;
+                animation: but;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+              }
+            .backg{
+                background-color: #00000073;
+            }
+            #knowmore{
+                border: 1px solid white;
+                background-color: green;
+                color: white;
+                transition: 0.5s;
+                width: auto;
+                font-size: 2.3vh;
+                padding: 2%;
+                font-variant: small-caps;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+                margin-bottom: 15px;
+              }
+              #knowmore:hover{
+                border: 1px solid black;
+                background-color: #ffffff8f;
+                color: black;
+              }
+              #knowwmore{
+                border: 1px solid white;
+                background-color: black;
+                color: white;
+                transition: 0.5s;
+                width: auto;
+                font-size: 2.3vh;
+                padding: 2%;
+                font-variant: small-caps;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+                margin-bottom: 15px;
+              }
+              #knowwmore:hover{
+                border: 1px solid black;
+                background-color: #ffffff8f;
+                color: black;
+              }
+            .dakhle{
+                background-color: #171718;
+                width: 100%;
+                height: 100%;
+                color: white;
+            }
+            .dakhle p, .h2d, .h3d{
+                text-align: left;
+            }
+            .tda img{
+                width: 80%;
+                border: 1px solid black;
+            }
+            .mybeqq{
+                margin-left: auto;
+                margin-right: auto;
+              }
+              .mybeqimgg{
+                display: block;
+                width: 15vw;
+                height:15vw;
+                border-radius: 50%;
+              }
+            #bc{
+                margin-top: 100px;
+                margin-bottom: 150px;
+            }
+            .sd{
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(206, 206, 206);
+                font-weight: 10;
+            }
+            .sdd{
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(206, 206, 206);
+                font-weight: 10;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .h2d{
+                font-family:Nova Flat;
+            }
+            .h3d{
+                font-weight: 20;
+                color: #e6e6e6;
+            }
+            .dimg1 img{
+                width: 95%;
+                height: 30vh;
+            }
+            .dimg2 img{
+                width: 60%;
+                height: 25vh;
+            }
+            .th1 .sd,.h2d{
+                margin-left: 10px;
+            }
+            .tda2{
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+                height: 10vh;
+            }
+            .tda2 img{
+                width: 90%;
+                border: 1px solid black;
+                height: 50vh
+            }
+            .tda2 .part2 img{
+                margin-top: -40px;
+                width: 100%;
+            }
+            .lespace{
+                height: 40px;
+            }
+            .thth{
+                text-align: center;
+            }
+            .tbequest{
+                width: 90%;
+            }
+            .le{
+                width: 80%;
+            }
+            .lista1 .insta, .lista2 .insta{
+                width: 15px;
+                margin-bottom: -1px;
+                height: 15px;
+            }
+</style>
+<body onload="alertt()">
+    <div id="overlay"><center><br><br><br><br><br><img src="pytho.png" width="20%" height="20%"><br>
+    <br><br><h2 font-family="Allerta Stencil" width="80" id="para1" class="h22">It might take couple <span class="gold">seconds</span>.
+        <h2 id="para" font-family="Allerta Stencil" width="80"  class="h22">website is <span class="gold">ready !</span></h2></h2>
+<br><br><br>
+<img src="loading.gif" width="30%" height="30%" id="loa">
+</center></div>
+<div  id="body">  
+<header >
+        <section id="home"><h1 class="title">Bac Info 2k24</h1>
+    </section>
+    </header>
+    
+<div class="banner">
+    <a href="classebanner.jpg"><img src="classebanner.jpg"></a>
+    <div class="overlay-text">Our Family</div>
+    
+</div>
+<hr class="hrbanner">
+<div class="underall">
+    <div class="tadhlil_khfif">
+
+<section class="about" id="store">
+    
+<section class="quote">
+</br>
+</br>
+<br>   
+    <h4 class="accentgrave">``</h4>
+<hr4 class="accentaigu">``</hr4>
+    <center><div class="amoud"><img src="pytho.png"></div></center>
+    <hr class="hrquote">
+    <center><p class="pquote"><span class="backg">We are all guilty of allowing so-called experts, </span><span class="backg"> or just people who have </span><span class="backg"> more experience in a given </span><span class="backg"> field than we do, </span><span class="backg"> to cap our potential </span>
+    </p></center>
+
+    <br>
+    <br>
+    <br>
+</section>
+</section>
+</div>
+<section>
+<div class="container">
+
+<hr>
+<hr>
+<span class="text1">Meet</span>
+
+<span class="text2">Our Legendary Crew</span>
+<hr>
+<hr>
+<hr>
+<div class="tadhlil">
+</Br>
+<br>
+<center>
+<table border="0" class="lista1">
+   
+<tr>
+
+    <th class="tsawer"><img src="adem.jpg"></th>
+<th class="tsawer"><img src="ahmed.jpg"></th>
+<th class="tsawer"><img src="achref.jpg"></th>
+
+</tr>
+
+<tr>
+    <th><p class="asami">Adem</p></th>
+    <th><p class="asami">Ahmed</p></th>
+    <th><p class="asami">Achref</p></th>
+    
+</tr>
+<tr><th><p class="desc">&nbsp;</p></th>
+    <th><p class="desc">&nbsp;</p></th>
+    <th><p class="desc">&nbsp;</p></th>
+</tr>
+    </center>
+</table>
+
+    <table border="0" class="lista2">
+<tr>
+    
+<th class="tsawer"><img src="akrem.jpg"></th>
+<th class="tsawer"><img src="ameni.jpg"></th>
+</tr>
+<tr>
+    <th><p class="asami">Akrem</p></th>
+    <th><p class="asami" >Ameni</p></th>
+</tr>
+<tr>
+    <th><p class="desc">&nbsp;</p></th>
+    <th><p class="desc">&nbsp;</p></th>
+</tr>
+</center>
+    </table>
+<table border="0" class="lista1">
+
+    <th class="tsawer"><img src="iyed.jpg"></th>
+    <th class="tsawer"><img src="jessem.jpg"></th>
+    <th class="tsawer"><img src="khalil.jpg"></th>
+    </tr>
+    <tr>
+        
+        <th><p class="asami">Iyed</p></th>
+        <th><p class="asami">Jessem</p></th>
+    <th><p class="asami">khalil</p></th>
+    </tr>
+    <tr>
+        <th><p class="desc">&nbsp;</p></th>
+        <th><p class="desc">Golden Boy</p></th>
+        <th><p class="desci"><a href="https://www.instagram.com/khaliil_arfaoui?igsh=bWZvbmxtY3Y2dDhk" ><img src="insta.png" class="insta"> Link</a></p></th></tr>
+
+
+</table>
+
+</br>
+</br>
+</div>
+</div>
+</section>
+<section class="liste2">
+<div class="tadhlil">
+    <div class="container">
+<hr class="hrbanner">
+<br>
+<br>
+<table border="0" class="lista1">
+   
+    <tr>
+    
+        <th class="tsawer"><img src="ramez.jpg"></th>
+    <th class="tsawer"><img src="rasslen.jpg"></th>
+    <th class="tsawer"><img src="sejda.jpg"></th>
+    
+    </tr>
+    
+    <tr>
+        <th><p class="asami">Ramez</p></th>
+        <th><p class="asami">Rasslen</p></th>
+        <th><p class="asami">Sajida</p></th>
+        
+    </tr>
+    <tr><th><p class="desc">&nbsp;</p></th>
+        <th><p class="desc">&nbsp;</p></th>
+        <th><p class="desc">(Taylor's Version)</p></th>
+    </tr>
+        </center>
+    </table>
+    <center>
+        <table border="0" class="lista2">
+    <tr>
+        
+    <th class="tsawer"><img src="sywar.jpg"></th>
+    <th class="tsawer"><img src="souhail.jpg"></th>
+    </tr>
+    <tr>
+        <th><p class="asami">Siwar</p></th>
+        <th><p class="asami" >Souhail</p></th>
+    </tr>
+    <tr>
+        <th><p class="desc">&nbsp;</p></th>
+        <th><p class="desc">Taraji fanboy</p></th>
+    </tr>
+    </center>
+    <center>
+        </table>
+    <table border="0" class="lista1">
+    
+        
+        <th class="tsawer"><img src="mohamed.jpg"></th>
+        <th class="tsawer"><img src="omar.jpg"></th>
+        <th class="tsawer"><img src="benothmen.jpg"></th>
+        </tr>
+        <tr>          
+            <th><p class="asami">Mohamed</p></th>
+        <th><p class="asami">Omar</p></th>
+        <th><p class="asami">Azyyz</p></th>
+        </tr>
+        <tr>        
+            <th><p class="desc">&nbsp;</p></th>
+            <th><p class="desc">&nbsp;</p></th>
+            <th><p class="desci"><a href="https://www.instagram.com/azyyyyyz__?igsh=OG9jNXNvNjdzOG41"><img src="insta.png" class="insta"> Link</p></a></th></tr>
+    
+    
+    </table>
+</center>
+    </div>
+</div>
+</section>
+<section >
+<div class="tadhlil">
+<hr class="hrbanner">
+</br>
+</br>
+<center>
+    <table border="0" class="lista2">
+<tr>
+    
+<th class="tsawer"><img src="rhouma.jpg"></th>
+<th class="tsawer"><img src="azizlamari.jpg"></th>
+</tr>
+<tr>
+    <th><p class="asami">AbdRahmen</p></th>
+    <th><p class="asami" >Aziz</p></th>
+</tr>
+<tr>
+    <th><p class="desci"><a href="https://www.instagram.com/azyyyyyz__?igsh=OG9jNXNvNjdzOG41"><img src="insta.png" class="insta"> Link</p></a></th>
+    <th><p class="desc">&nbsp;</p></th>
+</tr>
+</center>
+    
+</table>
+</br>
+</br>
+</br>
+</br>
+</br>
+</div>
+</section>
+<section class="container">
+    <hr>
+<hr>
+<hr>
+    <span class="text1">Our</span>
+
+<span class="text2">Big thing</span>
+<hr>
+<hr>
+<hr>
+</section>
+<section class="dakhla">
+<div class="obt" id="bc">
+   <center> <h2 class="h2" id="timeleft">loading</h2></center>
+   <button onclick="sound()" class="b"><img src="lock.png" width="50" height="50"></button>
+</div>
+<div class="dakhle" id="ac">
+    <div class="dakhle">
+        <br><br><br><br>
+        <table class="tda" border="0">
+            <tr>
+                <th class="th1"><h2 class="h2d">Falten Foulani</h2>
+                    <br><p class="sd">ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore</p></th>
+                <th class="dimg1"><img src="backdakhla.jpg" ></th>
+            </tr>
+            <tr>
+                <th colspan="2"><br><br></th>
+            </tr>
+            <tr>
+                <th class="dimg2"><img src="persdakhla.jpg" ></th>
+                <th><h2 class="h3d">About</h3><br><p class="sd">ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore</p> <br><br><button id="knowwmore" onclick="link()">&nbsp;Know More&nbsp;</button></th>
+            </tr>
+        </table>
+</br>
+<hr><hr>
+</br>
+<table class="tda2" border="0">
+    <tr>
+        <th colspan="3" class="thth"><h3 class="h33">Dakhla</h3></th>
+    </tr>
+    <tr>
+        <th colspan="3" class="thth"><h4 class="sdd">100% original idea 🏳️</h4></th>
+        </tr>
+    <tr>
+        <th class="lespace" colspan="3">&nbsp;</th>
+    </tr>
+    <tr>
+        <th class="p1"><img src="p1.jpg"></th>
+        <th class="part2"><img src="p2.jpg"></th>
+        <th><img src="p3.jpg"></th>
+    </tr>
+</table>
+<br>
+<br>
+<br>
+<table border="0" class="mybeqq">
+    <tr>
+    <th><img src="pytho.png" class="mybeqimgg"></th><th>&nbsp;&nbsp;&nbsp;</th>
+    <th class=""><a href="https://www.instagram.com/mono.graphics/"><img src="mono.jpg" class="mybeqimgg"></a></th>
+</tr>
+</table>
+</br>
+</br>
+</br>
+</div>
+</div>
+
+</section>
+
+<section class="arte">
+    <div class="contact" >
+
+<hr>
+<hr>
+<hr>
+    <span class="text1">Art</span>
+
+    <span class="text2">Made with our hands</span>
+<hr>
+<hr>
+<hr>
+<div class="tadhlil">
+<br>
+<br>
+<center><marquee scrollamount="5">&nbsp;&nbsp;<img src="art1.jpg" height="200" width="200">&nbsp;&nbsp;<img src="art3.jpg" height="200" width="200">&nbsp;&nbsp;<img src="art5.jpg" height="200" width="200"></marquee></center>
+    <br>
+    <br>
+    <br>
+<center><marquee scrollamount="5" direction="right">&nbsp;&nbsp;&nbsp;<img src="art4.jpg" height="200" width="200">&nbsp;&nbsp;<img src="art2.jpg" height="200" width="200">&nbsp;&nbsp;<img src="work2.PNG" height="200" width="200"></marquee></center>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+</section>
+<hr class="hrbanner">
+<br>
+<br>
+<br>
+<br>
+<div class="memories"></div>
+<br>
+<br>
+<br>
+<br>
+<hr class="hrbanner">
+
+    <section class="quote2">
+    <div class="tadhlil">
+        <br>
+        <br>
+        <h4 class="accentaigu">``</h4>
+<hr4 class="accentgrave">``</hr4>
+        <center><div class="amoud"><img src="pytho.png"></center>
+        <hr class="hrquote">
+         <center><p class="pquote2ar"> سُبْحَانَ الَّذِي أَسْرَى بِعَبْدِهِ لَيْلاً مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ لِنُرِيَهُ مِنْ آيَاتِنَا إِنَّهُ هُوَ السَّمِيعُ البَصِيرُ <br>{1} (الإسراء)</p></center>
+        </p></center>  <br>
+<table class="flags"><tr><th><a href="https://www.versobooks.com/en-gb/blogs/news/solidarity-with-palestine-free-resources-and-further-reading"><img src="palestine2.jpg" class="pal"></a>&nbsp;&nbsp;</th><th>       </th>     <th>&nbsp;&nbsp;<img src="tunisia.png" class="pal"></th></tr></table>
+        <br>
+        <br>
+<hr class="hrbanner">
+</div>
+<br>
+<br>
+        <br>
+    
+</section>
+
+<section class="ourpics">
+    <hr>
+    <hr>
+    <hr>
+        <span class="text1">Moments</span>
+    
+        <span class="text2">we spent together</span>
+    <hr>
+    <hr>
+    <hr>
+<table border="0" class="art">
+    <tr>
+    <th colspan="2" class="mem1"><a href="img4.jpg"><img src="img3.jpg" height="100" width="200"></a></th>
+    
+    
+    </tr>
+    <tr>
+    <tr><th colspan="2" class="mem1"><a href="img4.jpg"><img src="img4.jpg" height="100" width="200"></a></th></tr>
+    <tr>
+    
+        <th colspan="2" class="mem1"><a href="img2.jpg"><img src="img2.jpg" height="100" width="200"></a></th>
+    
+        
+    </tr>
+</table>
+        <table border="0" class="art">
+
+    <tr><th colspan="2" class="mem1"><a href="img1.jpg"><img src="img1.jpg" height="100" width="200"></a></th></tr>
+    <tr>
+        <th class="mem2"><a href="img6.jpg"><img src="img6.jpg" height="100" width="200"></a></th>
+        <th class="mem2"><a href="img7.jpg"><img src="img7.jpg" height="100" width="200"></a></th>
+    </tr>
+    <tr>
+    
+        
+    
+        
+    </tr>
+</table>
+</section>
+</div>
+<footer>
+<br>
+<table border="0" class="tbequest">
+    <tr>
+        <th class="le">
+<p class="mybequest">next seniors, continue the job.<br>
+    create a website every year.<br>
+    let's make this our tradition !<br></p></th><th>
+    <img class="mybeqimg" src="pytho.png" width="55" height="55"></th>
+</tr>
+<tr>
+    <th class="le">
+       <hr>
+    </th>
+    <th> </th>
+</tr>
+</table>
+<br><br>
+<button id="knowmore" onclick="history()">Discover how we did all of this</button>
+<br>
+<br>
+<p class="name">made by everyone of us</p>
+
+</footer>
+</div>  
+</body>
+</html>
+<script>
+    LetTheDogsOut=true;
+    ol=document.getElementById("overlay");
+    body=document.getElementById("body");
+    body.style.display="none";
+        para.style.display="none";
+    window.addEventListener("load",function(){
+        loa.style.display="none";
+        para1.style.display="none";
+        para.style.display="inline";
+    });
+    setTimeout(main, 1500);
+function main(){ol.style.display="none";
+        body.style.display="inline";
+        }
+function hide(){document.getElementById("alert").style.display="none";}
+var countDownDate = new Date("FEB 26, 2024 16:00:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("timeleft").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timeleft").innerHTML = "Just a Moment!";
+  }
+}, 1000);
+a=document.getElementById("ac");
+b=document.getElementById("bc");
+a.style.display="none";
+document.addEventListener('contextmenu', event => event.preventDefault());
+function sound(){
+    if (document.getElementById("timeleft").textContent == "Just a Moment!" && LetTheDogsOut==true){
+    sout = new Audio('sound.mp3');
+     sout.play();
+     b.style.display="none";
+     a.style.display="inline";}
+    }
+    function history() {
+  window.location.href = "https://bacinfo2024.github.io/history/";
+  }
+  function link() {
+  window.location.href = "https://www.google.com/search?client=opera-gx&q=page+thezz+l+falten+l+fouleni&sourceid=opera&ie=UTF-8&oe=UTF-8";
+  }
+  
+</script>
+<!--   
+                                                 #    #
+                                            %%% ##   ##
+                                         %%%%% ###%%###
+                                        %%%%% ### %%% #
+                                      %%%%%% ### %%% ###
+                                       %%%% ## %% #######
+                                      %%%%% # %% #######
+                                    %%%%%% # % #########
+                                   %%%%% ##### #########
+                         ###        %% ####### #########
+                %%% ############    ########### ########
+             %%%% ############################### #######
+           %%%%% ################################## ######
+         %%%%%% ########################m########### #####
+        %%%%%% #####################################  ###
+        %%%%% #######################################
+       %%I%%% ########################################
+    % %%%%%%% ########################################
+     %%%%%%%%% #######################################
+    %%%%%%%%%% ########################################
+ %%% %%%%%%%%   ###### ################################
+   %%%%%%%%      ###### #################### ##########
+% %%%%%%%%        ####### #######B### ###### ##########
+ %%%%%%%%%         #######  ########### ###### ########
+%%%%%%%%%%          ##### ###  ######### ####### ######
+ %%%%%%%%%%          #### ##               ####### ####
+ %%%%%%%%%%%           ## #                  ##### ###
+  %%  %% % %%         # ##                      ## ###
+    %   %    %        # ###                      # ###
+                       # ###                     ## ###
+                       # ###                     ## ###
+                       # ####                   #### ##
+                      ### ###                  ##### ###
+                     ####  ###                 ####   ##
+                    #####   ###                 ##    ##
+                   #####    ####                      ###
+                    ##        ###                     ###
+                               ####                     ##
+                                ####                    ###
+                                                        ##H#
+                                                         ##

@@ -151,7 +151,7 @@
                 margin-left: auto;
                 margin-right: auto;
                 border-radius: 100px;
-}.pquote2ar{
+}.pquote2ar ,.pquote2arr{
                 border-radius: 0;      
                 font-family: Lateef;
                 border-width: 100%;
@@ -162,6 +162,9 @@
                 border-radius: 100px;
                 text-shadow: 0 0 3px black, 0 0 5px black; 
                 color: white;
+}
+.quote2arr{
+    width: auto
 }
 .arabquote{
     font-family: 'Gulzar', serif;
@@ -768,7 +771,6 @@
               }
             .backg{
                 background-color: #00000073;
-                
             }
             #knowmore{
                 border: 1px solid white;
@@ -908,6 +910,9 @@
             }
             .red{
                 color: red;
+            }
+            .esp{
+                width: 10%;
             }
 </style>
 <body onload="alertt()">
@@ -1257,11 +1262,20 @@
 <hr4 class="accentgrave">``</hr4>
         <center><div class="amoud"><img src="pytho.png"></center>
         <hr class="hrquote">
-         <center><p class="pquote2ar"> سُبْحَانَ الَّذِي أَسْرَى بِعَبْدِهِ لَيْلاً مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ لِنُرِيَهُ مِنْ آيَاتِنَا إِنَّهُ هُوَ السَّمِيعُ البَصِيرُ <br>{1} (الإسراء)</p></center>
+         <center><p class="pquote2ar"> سُبْحَانَ الَّذِي أَسْرَى بِعَبْدِهِ لَيْلاً مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ لِنُرِيَهُ مِنْ آيَاتِنَا إِنَّهُ هُوَ السَّمِيعُ البَصِيرُ </p></center>
         </p></center> 
+        <center>
+            <table>
+                <tr>
+                    <th class="flags"><a href="https://www.versobooks.com/en-gb/blogs/news/solidarity-with-palestine-free-resources-and-further-reading"><img src="palestine2.jpg" class="pal"></a></th>
+                    <th class="esp">&nbsp;</th>
+                    <th><p class="pquote2arr" colspan="2">{1} (الإسراء)</p></th>
+                    <th class="esp">&nbsp;</th>
+                    <th class="flags"><img src="tunisia.png" class="pal"></th>
+                </tr>
+            </table></center>
         <br>
-<table class="flags"><tr><th><a href="https://www.versobooks.com/en-gb/blogs/news/solidarity-with-palestine-free-resources-and-further-reading"><img src="palestine2.jpg" class="pal"></a>&nbsp;&nbsp;</th><th>       </th>     <th>&nbsp;&nbsp;<img src="tunisia.png" class="pal"></th></tr></table>
-        <br>
+       <br>
         <center>
             <p class="arabquote">سَلامُُ<span class="green"> لأرض خُلقَت</span> للسَلام <span class="red">ومَا رأت يومًا سَلامًا</span> </p>
         </center>
@@ -1356,7 +1370,7 @@
         para.style.display="inline";
     });
     function alertt(){
-    setTimeout(main, 2000);
+    setTimeout(main, 1500);
 function main(){ol.style.display="none";
         body.style.display="inline";
         }}

@@ -977,7 +977,7 @@
         
     </tr>
     <tr><th><p class="desc">&nbsp;</p></th>
-        <th><p class="desc"><p class="desci"><a href="https://www.instagram.com/ashina_sekiiro?igsh=MWptMmpscHV5MzhqNQ==" >insta</a></p></p></th>
+        <th><p class="desc"><p class="desci"><a href="https://www.instagram.com/ashina_sekiiro?igsh=MWptMmpscHV5MzhqNQ==" >insta</a></p></th>
         <th><p class="desc">&nbsp;</p></th>
     </tr>
         </center>
@@ -1067,8 +1067,8 @@
 <section class="dakhla">
     
 <div class="obt" id="bc">
-    <center> <h2 class="h2dd">" dakhla "</h2></center>
-    <br>
+    <center> <h2 class="h2dd">" dakhla "</h2></center><br>
+    <center><p class="h33">"when the tifo is displayed, press on the lock"</p></center><br>
    <center> <h2 class="h2" id="timeleft">loading</h2></center><br>
    <button onclick="sound()" class="b"><img src="lock.png" width="50" height="50"></button><br>
 </div>
@@ -1250,7 +1250,7 @@
 <br><br>
 <button id="knowmore" onclick="history()">Discover how we did all of this</button>
 <br><br><div class="lines"><center>
-<p class="mybequestt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total number of lines of the code: <span class="animat">1347</span></p></center></div>
+<p class="mybequestt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML5, CSS3, JavaScript: <span class="animat">1347</span> lines</p></center></div>
 <br><br>
 <p class="name">made by everyone of us</p>
 </center>
@@ -1259,17 +1259,28 @@
 </body>
 </html>
 <script>
-    LetTheDogsOut=false;
+    LetTheDogsOut=true;
     ol=document.getElementById("overlay");
     body=document.getElementById("body");
     body.style.display="none";
         para.style.display="none";
+        function isMobile() {
+  const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+  return regex.test(navigator.userAgent);
+}
+
+
     window.addEventListener("load",function(){
         loa.style.display="none";
         para1.style.display="none";
         para.style.display="inline";
     });
     function alertt(){
+        if (!isMobile()){
+  console.log("Desktop device detected");
+  window.location.href = "https://bacinfo2024.github.io/desktop/";
+  
+}
     setTimeout(main, 1500);
 function main(){ol.style.display="none";
         body.style.display="inline";

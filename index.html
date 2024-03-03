@@ -1298,7 +1298,7 @@ var x = setInterval(function() {
   + minutes + "m " + seconds + "s ";
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timeleft").innerHTML = "Just a Moment!";
+    document.getElementById("timeleft").innerHTML = "Click on the lock!";
   }
 }, 1000);
 a=document.getElementById("ac");
@@ -1306,7 +1306,7 @@ b=document.getElementById("bc");
 a.style.display="none";
 document.addEventListener('contextmenu', event => event.preventDefault());
 function sound(){
-    if (document.getElementById("timeleft").textContent == "Just a Moment!" && LetTheDogsOut==true){
+    if (document.getElementById("timeleft").textContent == "Click on the lock!" && LetTheDogsOut==true){
     sout = new Audio('sound.mp3');
      sout.play();
      b.style.display="none";
